@@ -1,6 +1,6 @@
 # szlaczki
 
-Do robienia szlaczków prowadzącego
+Do robienia szlaczkow prowadzacego
 
 # instalacja
 
