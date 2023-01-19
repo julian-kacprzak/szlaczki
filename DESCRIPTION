@@ -1,12 +1,11 @@
 Package: szlaczki
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Rysowanie szlaczkow
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Julian Kacprzak
+Maintainer: The package maintainer <julian.kacprzak@gmail.com>
+Description: Pieknie rysuje szlaczki
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports: checkmate
