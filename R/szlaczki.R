@@ -21,7 +21,7 @@ marks <- function() {
 #' @param tekst_k Liczba, W ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.
 #' @param druk Logiczna, Czy wydrukowac szlaczek do konsoli.
 #'
-#' @return Szlaczek skopiowany do schowka (Windows) badz wydrukowany do konsoli.
+#' @return Szlaczek skopiowany do schowka badz wydrukowany do konsoli.
 
 szlaczki <- function(tekst, wys = 7, szer = 79, symbole = szlaczki:::marks(),
                      hlinie = 0, vlinie = 0, tekst_r = round((wys + 1)/2),

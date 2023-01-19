@@ -37,7 +37,7 @@ szlaczki(
 \item{druk}{Logiczna, Czy wydrukowac szlaczek do konsoli.}
 }
 \value{
-Szlaczek skopiowany do schowka (Windows) badz wydrukowany do konsoli.
+Szlaczek skopiowany do schowka badz wydrukowany do konsoli.
 }
 \description{
 Robi szlaczki
