@@ -11,7 +11,7 @@ marks <- function() {
 #'
 #' @export
 #'
-#' @param tekst String, Tekst do umieszczenia w szlaczku - znajdzie sie na środku po lewo.
+#' @param tekst String, Tekst do umieszczenia w szlaczku.
 #' @param wys Liczba, Wysokosc szlaczka - domyslnie 7.
 #' @param szer Liczba, Szerokosc szlaczka - domyslnie 79.
 #' @param symbole Wektor symboli do napisania szlaczka - domyslnie zbior wszystkich symboli ASCII. Jezeli zostanie podana liczba n, wybranych zostanie losowo n symboli sposrod wszystkich symboli ASCII.

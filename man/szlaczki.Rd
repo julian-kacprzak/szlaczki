@@ -18,7 +18,7 @@ szlaczki(
 )
 }
 \arguments{
-\item{tekst}{String, Tekst do umieszczenia w szlaczku - znajdzie sie na środku po lewo.}
+\item{tekst}{String, Tekst do umieszczenia w szlaczku.}
 
 \item{wys}{Liczba, Wysokosc szlaczka - domyslnie 7.}
 
