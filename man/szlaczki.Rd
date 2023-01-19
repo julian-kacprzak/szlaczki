@@ -9,7 +9,10 @@ szlaczki(
   wys = 7,
   szer = 79,
   symbole = szlaczki:::marks(),
-  linie = 2,
+  hlinie = 0,
+  vlinie = 0,
+  tekst_r = round((wys + 1)/2),
+  tekst_k = 3,
   druk = FALSE,
   ...
 )
@@ -23,7 +26,13 @@ szlaczki(
 
 \item{symbole}{Wektor symboli do napisania szlaczka - domyslnie zbior wszystkich symboli ASCII. Jezeli zostanie podana liczba n, wybranych zostanie losowo n symboli sposrod wszystkich symboli ASCII.}
 
-\item{linie}{Liczba, Co ile linii ma sie pojawiac linia wypelniona symbolami. Jezeli zostanie podana linie = 1 lub wartosc logiczna FALSE, wszystkie linie beda wypelnione.}
+\item{hlinie}{Liczba, Co ile linii ma sie pojawiac horyzontalna linia wypelniona symbolami. Jezeli zostanie podane hlinie = 0 lub hlinie = 1, wszystkie linie beda wypelnione.}
+
+\item{vlinie}{Liczba, Co ile linii ma sie pojawiac wertykalna linia wypelniona symbolami. Jezeli zostanie podane vlinie = 0 lub vlinie = 1, wszystkie linie beda wypelnione.}
+
+\item{tekst_r}{Liczba, w ktorym rzedzie ma sie pojawic tekst, domyslnie wybierany jest srodkowy rzad.}
+
+\item{tekst_k}{Liczba, w ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.}
 
 \item{druk}{Logiczna, Czy wydrukowac szlaczek do konsoli.}
 }
