@@ -8,5 +8,6 @@ Description: Pieknie rysuje szlaczki
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports: checkmate
+Imports: checkmate,
+  clipr
 RoxygenNote: 7.2.3

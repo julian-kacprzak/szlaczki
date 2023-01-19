@@ -75,5 +75,5 @@ szlaczki <- function(tekst, wys = 7, szer = 79, symbole = szlaczki:::marks(),
   m[, szer + 1] <- "\n"
 
   if (druk) cat(paste0(c(t(m)), collapse = ""))
-  writeClipboard(paste0(c(t(m)), collapse = ""))
+  clipr::write_clip(paste0(c(t(m)), collapse = ""))
 }
