@@ -1,10 +1,11 @@
-
 #' Funkcja pomocnicza, przechowuje symbole ASCII
 
 marks <- function() {
-  c("`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=",
+  c(
+    "`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=",
     "+", "[", "{", "]", "}", "\\", "|", ";", ":", "\"", ",", "<", ".", ">", "/",
-    "?", " ")
+    "?", " "
+  )
 }
 
 #' Robi szlaczki
@@ -24,9 +25,8 @@ marks <- function() {
 #' @return Szlaczek skopiowany do schowka badz wydrukowany do konsoli.
 
 szlaczki <- function(tekst, wys = 7, szer = 79, symbole = szlaczki:::marks(),
-                     hlinie = 0, vlinie = 0, tekst_r = round((wys + 1)/2),
+                     hlinie = 0, vlinie = 0, tekst_r = round((wys + 1) / 2),
                      tekst_k = 3, druk = FALSE, ...) {
-
   # Sprawdzenie argumentow
   if (!missing(tekst)) checkmate::assert_string(tekst)
   checkmate::assert_int(wys, lower = 1)
@@ -44,16 +44,16 @@ szlaczki <- function(tekst, wys = 7, szer = 79, symbole = szlaczki:::marks(),
   }
 
   # Macierz pelna symboli
-  s <- sample(symbole, wys*(szer + 1), replace = T, ...)
+  s <- sample(symbole, wys * (szer + 1), replace = T, ...)
   m <- matrix(s, wys, szer + 1)
 
   # Linie
-  if (hlinie > 0 & vlinie > 0){
+  if (hlinie > 0 & vlinie > 0) {
     m[-seq(1, wys, hlinie), -seq(3, szer, vlinie)] <- " "
   } else if (hlinie > 0) {
     m[-seq(1, wys, hlinie), ] <- " "
   } else if (vlinie > 0) {
-    m[ , -seq(3, szer, vlinie)] <- " "
+    m[, -seq(3, szer, vlinie)] <- " "
   }
 
   # Tekst
