@@ -30,9 +30,9 @@ szlaczki(
 
 \item{vlinie}{Liczba, Co ile linii ma sie pojawiac wertykalna linia wypelniona symbolami. Jezeli zostanie podane vlinie = 0 lub vlinie = 1, wszystkie linie beda wypelnione.}
 
-\item{tekst_r}{Liczba, w ktorym rzedzie ma sie pojawic tekst, domyslnie wybierany jest srodkowy rzad.}
+\item{tekst_r}{Liczba, W ktorym rzedzie ma sie pojawic tekst, domyslnie wybierany jest srodkowy rzad.}
 
-\item{tekst_k}{Liczba, w ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.}
+\item{tekst_k}{Liczba, W ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.}
 
 \item{druk}{Logiczna, Czy wydrukowac szlaczek do konsoli.}
 }

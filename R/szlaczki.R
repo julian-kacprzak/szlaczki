@@ -17,8 +17,8 @@ marks <- function() {
 #' @param symbole Wektor symboli do napisania szlaczka - domyslnie zbior wszystkich symboli ASCII. Jezeli zostanie podana liczba n, wybranych zostanie losowo n symboli sposrod wszystkich symboli ASCII.
 #' @param hlinie Liczba, Co ile linii ma sie pojawiac horyzontalna linia wypelniona symbolami. Jezeli zostanie podane hlinie = 0 lub hlinie = 1, wszystkie linie beda wypelnione.
 #' @param vlinie Liczba, Co ile linii ma sie pojawiac wertykalna linia wypelniona symbolami. Jezeli zostanie podane vlinie = 0 lub vlinie = 1, wszystkie linie beda wypelnione.
-#' @param tekst_r Liczba, w ktorym rzedzie ma sie pojawic tekst, domyslnie wybierany jest srodkowy rzad.
-#' @param tekst_k Liczba, w ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.
+#' @param tekst_r Liczba, W ktorym rzedzie ma sie pojawic tekst, domyslnie wybierany jest srodkowy rzad.
+#' @param tekst_k Liczba, W ktorej kolumnie ma sie pojawic tekst, domyslnie wybierana jest pierwsza kolumna.
 #' @param druk Logiczna, Czy wydrukowac szlaczek do konsoli.
 #'
 #' @return Szlaczek skopiowany do schowka (Windows) badz wydrukowany do konsoli.
